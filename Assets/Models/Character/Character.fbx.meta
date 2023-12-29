@@ -1,0 +1,3015 @@
+fileFormatVersion: 2
+guid: 6a72a39b0d5ee7e47a01922a2a8673fb
+ModelImporter:
+  serializedVersion: 20101
+  internalIDToNameTable:
+  - first:
+      74: 6200578666267062213
+    second: run
+  - first:
+      74: 1206203414021864626
+    second: dodgeLeft
+  - first:
+      74: 4158635320657290950
+    second: dodgeRight
+  - first:
+      74: -2993534804863918692
+    second: jump
+  - first:
+      74: 2654094397476298223
+    second: hangtime
+  - first:
+      74: -7254038708117199699
+    second: roll
+  - first:
+      74: 7722044779243079592
+    second: jetpack_forward
+  - first:
+      74: -7986632732230187897
+    second: death_bounce
+  - first:
+      74: -796449668748473105
+    second: hold_magnet
+  - first:
+      74: -8739809075886683024
+    second: h_run
+  - first:
+      74: -1250194615810843491
+    second: h_jump
+  - first:
+      74: -2203323909942281989
+    second: h_hangtime
+  - first:
+      74: -7995379407078014132
+    second: h_landing
+  - first:
+      74: 8123112538267011844
+    second: h_roll
+  - first:
+      74: -1234976231016448007
+    second: idlePaint
+  - first:
+      74: -8704844686039692697
+    second: introRun
+  - first:
+      74: 1420770986316445164
+    second: landing
+  - first:
+      74: -5780007596415585450
+    second: stumbleCornerLeft
+  - first:
+      74: 490300594236466544
+    second: stumbleCornerRight
+  - first:
+      74: -4094923551585845904
+    second: stumble
+  - first:
+      74: -8632712095423996412
+    second: stumbleSideRight
+  - first:
+      74: -1576812785932115333
+    second: stumbleSideLeft
+  - first:
+      74: 3232966540150668779
+    second: death_upper
+  - first:
+      74: 2377572051695982025
+    second: death_lower
+  - first:
+      74: -5833985236686300559
+    second: death_movingTrain
+  - first:
+      74: 7788093508002828347
+    second: caught
+  - first:
+      74: 2822447517051935726
+    second: h_left
+  - first:
+      74: 4834916861563233737
+    second: h_right
+  - first:
+      74: -799929963344893
+    second: superRun
+  - first:
+      74: 3469034672553166637
+    second: h_Grind1
+  - first:
+      74: 9142110719460003018
+    second: h_Grind2
+  - first:
+      74: -7841702556159131313
+    second: landing_grind1
+  - first:
+      74: 5893387071674815656
+    second: landing_grind2
+  - first:
+      74: -8004898365119876082
+    second: h_skate_on
+  - first:
+      74: 5128389309265931517
+    second: run2
+  - first:
+      74: -6986826332379192093
+    second: run3
+  - first:
+      74: -8343012657724061209
+    second: h_Grind3
+  - first:
+      74: 56095146099702986
+    second: landing_grind3
+  - first:
+      74: -897190310568313569
+    second: h_jump2_kickflip
+  - first:
+      74: 5738011392788168777
+    second: h_jump3_180
+  - first:
+      74: 8697493655198444536
+    second: h_jump4_360flip
+  - first:
+      74: 6288994713874576027
+    second: h_jump5_Impossible
+  - first:
+      74: -4069564210892440347
+    second: h_jump6_nollie
+  - first:
+      74: -1255055268940883093
+    second: h_jump7_heelflip
+  - first:
+      74: 7991561165756979566
+    second: h_jump8_pop shuvit
+  - first:
+      74: 1928902251276841414
+    second: h_jump9_fs360
+  - first:
+      74: -3682710791981343445
+    second: h_jump10_heel360
+  - first:
+      74: 3087219216213572645
+    second: h_jump11_fs salto
+  - first:
+      74: -1239184303795503525
+    second: jump_salto
+  - first:
+      74: 7920423262416440944
+    second: run4_long
+  - first:
+      74: 8478834907630018394
+    second: stumbleOffRight
+  - first:
+      74: -6343657622492996135
+    second: stumbleOffLeft
+  - first:
+      74: -5312386893116986957
+    second: slide_roll2
+  - first:
+      74: 3980815017654273263
+    second: jump2
+  - first:
+      74: 1678683164215425288
+    second: landing2
+  - first:
+      74: 7303392442866275096
+    second: jump3
+  - first:
+      74: 5946954130188075525
+    second: hangtime3
+  - first:
+      74: 4731385796058973098
+    second: landing3
+  - first:
+      74: -1197560288032314309
+    second: hangtime2
+  - first:
+      74: -1066935416671606343
+    second: caught2
+  - first:
+      74: 7983334213156460985
+    second: stumbleFall
+  - first:
+      74: 3990634887034785433
+    second: stumble_low
+  - first:
+      74: 2749528720828629341
+    second: load
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EFX
+    second: {fileID: 2100000, guid: 6901d18cfd4651c499b465b6ff0f7569, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_frank
+    second: {fileID: 2100000, guid: 7f7d845038d940a48a1adac1ff798404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_fresh
+    second: {fileID: 2100000, guid: 0dd72c8e4b4c28e4bb5fe3b995ef8ae3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_frizzy
+    second: {fileID: 2100000, guid: 1d51488677b9e564292d17c54ff94cdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_king
+    second: {fileID: 2100000, guid: 713285dd9cbdbb04fb828e8d995f4ba1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_lucy
+    second: {fileID: 2100000, guid: 30bb391661e7d4144a03fc1cabfa9d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_ninja
+    second: {fileID: 2100000, guid: 28349a1e295fc394b80cd244137c82e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_slick
+    second: {fileID: 2100000, guid: 4fa13d82cbdb6834488eb71671f94fd1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_spike
+    second: {fileID: 2100000, guid: dfc3e678c6bfad14b81b37fad69d4201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_tricky
+    second: {fileID: 2100000, guid: f1c8ef9634e094941b8eac21c03fc6fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: avatar_yutani
+    second: {fileID: 2100000, guid: bc529474b2d70364f9df7af91dffb0b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: main
+    second: {fileID: 2100000, guid: 3d4a515bc1e8a37489a8361c5bb4ef02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shadow
+    second: {fileID: 2100000, guid: 111d6f0ebf498aa4ea7e4c18b6521b73, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'run' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'jFoot_L' has translation animation that will be discarded.\n\t'jFoot_R'
+      has translation animation that will be discarded.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jAfro_3' has translation animation that
+      will be discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'dodgeLeft' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'dodgeRight' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jHand_R' has translation animation that
+      will be discarded.\n\nClip 'jump' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'jFoot_L' has translation animation that will be discarded.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'roll' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jHand_R' has translation animation that
+      will be discarded.\n\nClip 'death_bounce' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jFoot_L' has translation animation that
+      will be discarded.\n\t'jFoot_R' has translation animation that will be discarded.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\nClip 'hold_magnet' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'h_run' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\nClip 'h_jump' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_hangtime' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jHead' has translation animation that
+      will be discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'h_landing' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jHead' has translation animation that
+      will be discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'h_roll' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'idlePaint' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jShoulder_L'
+      has translation animation that will be discarded.\n\t'jHand_L' has translation
+      animation that will be discarded.\n\t'jShoulder_R' has translation animation
+      that will be discarded.\n\t'jHand_R' has translation animation that will be
+      discarded.\n\nClip 'introRun' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'jFoot_L' has translation animation that will be discarded.\n\t'jFoot_R'
+      has translation animation that will be discarded.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jHead' has translation animation that
+      will be discarded.\n\t'jShoulder_L' has translation animation that will be
+      discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jShoulder_R'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'landing' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jFoot_L' has translation animation that
+      will be discarded.\n\t'jFoot_R' has translation animation that will be discarded.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'stumbleCornerLeft' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\nClip 'stumbleCornerRight'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHand_L' has translation
+      animation that will be discarded.\n\nClip 'stumble' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jShoulder_R' has translation animation that will
+      be discarded.\n\nClip 'stumbleSideRight' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jFoot_L' has translation animation that
+      will be discarded.\n\t'jFoot_R' has translation animation that will be discarded.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'stumbleSideLeft' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'death_upper' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\nClip 'death_lower' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'jFoot_L' has translation animation that will be discarded.\n\t'jFoot_R'
+      has translation animation that will be discarded.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\nClip 'death_movingTrain' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'caught' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'h_left' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jShoulder_R'
+      has translation animation that will be discarded.\n\nClip 'h_right' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jShoulder_R' has translation animation
+      that will be discarded.\n\nClip 'superRun' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jFoot_L' has translation animation that
+      will be discarded.\n\t'jFoot_R' has translation animation that will be discarded.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jAfro_3' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'h_Grind1' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHand_L' has translation
+      animation that will be discarded.\n\t'jHand_R' has translation animation that
+      will be discarded.\n\nClip 'h_Grind2' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'landing_grind1'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jShoulder_L' has translation animation
+      that will be discarded.\n\t'jHand_L' has translation animation that will be
+      discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'landing_grind2' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jShoulder_L' has translation animation
+      that will be discarded.\n\t'jHand_L' has translation animation that will be
+      discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'h_skate_on' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHand_L' has translation animation that will be
+      discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'run2' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jAfro_3' has translation animation that will be
+      discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'run3' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jAfro_3' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_Grind3' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHand_L' has translation animation that will be
+      discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'landing_grind3' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jShoulder_L' has translation animation
+      that will be discarded.\n\t'jHand_L' has translation animation that will be
+      discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'h_jump2_kickflip' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_R'
+      has translation animation that will be discarded.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jHead' has translation animation that
+      will be discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'h_jump3_180' has
+      import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has
+      translation animation that will be discarded.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump4_360flip' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump5_Impossible' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump6_nollie' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump7_heelflip' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump8_pop shuvit' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump9_fs360' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump10_heel360' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'h_jump11_fs salto' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'jump_salto' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'run4_long' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jAfro_3' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'stumbleOffRight' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'stumbleOffLeft' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'slide_roll2' has import animation
+      warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'jump2' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'landing2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jFoot_L' has translation animation that
+      will be discarded.\n\t'jFoot_R' has translation animation that will be discarded.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHead' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'jump3' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\t'jLowerSpine' has translation
+      animation that will be discarded.\n\t'jHead' has translation animation that
+      will be discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n\nClip 'landing3' has import
+      animation warnings that might lower retargeting quality:\nNote: Activate translation
+      DOF on avatar to improve retargeting quality.\n\t'jFoot_L' has translation
+      animation that will be discarded.\n\t'jFoot_R' has translation animation that
+      will be discarded.\n\t'jLowerSpine' has translation animation that will be
+      discarded.\n\t'jHead' has translation animation that will be discarded.\n\t'jHand_L'
+      has translation animation that will be discarded.\n\t'jHand_R' has translation
+      animation that will be discarded.\n\nClip 'caught2' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jHand_L' has translation animation that will be
+      discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'stumbleFall' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jLowerSpine'
+      has translation animation that will be discarded.\n\t'jHand_L' has translation
+      animation that will be discarded.\n\t'jHand_R' has translation animation that
+      will be discarded.\n\nClip 'stumble_low' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'jFoot_L' has translation animation that
+      will be discarded.\n\t'jFoot_R' has translation animation that will be discarded.\n\t'jAfro_3'
+      has translation animation that will be discarded.\n\t'jShoulder_L' has translation
+      animation that will be discarded.\n\t'jHand_L' has translation animation that
+      will be discarded.\n\t'jHand_R' has translation animation that will be discarded.\n\nClip
+      'load' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'jFoot_L'
+      has translation animation that will be discarded.\n\t'jFoot_R' has translation
+      animation that will be discarded.\n\t'jLowerSpine' has translation animation
+      that will be discarded.\n\t'jShoulder_L' has translation animation that will
+      be discarded.\n\t'jHand_L' has translation animation that will be discarded.\n\t'jHand_R'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dodgeLeft
+      takeName: dodgeLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dodgeRight
+      takeName: dodgeRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump
+      takeName: jump
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hangtime
+      takeName: hangtime
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: roll
+      takeName: roll
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jetpack_forward
+      takeName: jetpack_forward
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_bounce
+      takeName: death_bounce
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hold_magnet
+      takeName: hold_magnet
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_run
+      takeName: h_run
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump
+      takeName: h_jump
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_hangtime
+      takeName: h_hangtime
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_landing
+      takeName: h_landing
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_roll
+      takeName: h_roll
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: DisableSkate
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.47093022
+        functionName: DisableSkate
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idlePaint
+      takeName: idlePaint
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: introRun
+      takeName: introRun
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: landing
+      takeName: landing
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumbleCornerLeft
+      takeName: stumbleCornerLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumbleCornerRight
+      takeName: stumbleCornerRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumble
+      takeName: stumble
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumbleSideRight
+      takeName: stumbleSideRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumbleSideLeft
+      takeName: stumbleSideLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_upper
+      takeName: death_upper
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_lower
+      takeName: death_lower
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death_movingTrain
+      takeName: death_movingTrain
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: caught
+      takeName: caught
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_left
+      takeName: h_left
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_right
+      takeName: h_right
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: superRun
+      takeName: superRun
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_Grind1
+      takeName: h_Grind1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_Grind2
+      takeName: h_Grind2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: landing_grind1
+      takeName: landing_grind1
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: landing_grind2
+      takeName: landing_grind2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_skate_on
+      takeName: h_skate_on
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run2
+      takeName: run2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run3
+      takeName: run3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_Grind3
+      takeName: h_Grind3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: landing_grind3
+      takeName: landing_grind3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump2_kickflip
+      takeName: h_jump2_kickflip
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump3_180
+      takeName: h_jump3_180
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump4_360flip
+      takeName: h_jump4_360flip
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump5_Impossible
+      takeName: h_jump5_Impossible
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump6_nollie
+      takeName: h_jump6_nollie
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump7_heelflip
+      takeName: h_jump7_heelflip
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump8_pop shuvit
+      takeName: h_jump8_pop shuvit
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump9_fs360
+      takeName: h_jump9_fs360
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump10_heel360
+      takeName: h_jump10_heel360
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: h_jump11_fs salto
+      takeName: h_jump11_fs salto
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump_salto
+      takeName: jump_salto
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run4_long
+      takeName: run4_long
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumbleOffRight
+      takeName: stumbleOffRight
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumbleOffLeft
+      takeName: stumbleOffLeft
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 12
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: slide_roll2
+      takeName: slide_roll2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump2
+      takeName: jump2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: landing2
+      takeName: landing2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jump3
+      takeName: jump3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hangtime3
+      takeName: hangtime3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: landing3
+      takeName: landing3
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hangtime2
+      takeName: hangtime2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: caught2
+      takeName: caught2
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 63
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumbleFall
+      takeName: stumbleFall
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stumble_low
+      takeName: stumble_low
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: load
+      takeName: load
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 438
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: jRoot
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jKnee_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jKnee_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jFoot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jFoot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jLowerSpine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jShoulder_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jShoulder_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jElbow_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jElbow_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jHand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jHand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jToes_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jToes_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: jAfro_3
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Character(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character Model
+      parentName: Character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: avatar_prefab
+      parentName: Character Model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: avatars
+      parentName: avatar_prefab
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: fresh
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: slick
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spike
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: tricky
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: yutani
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frank
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: frizzy
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: king
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ninja
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lucy
+      parentName: avatars
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gSkeleton_game
+      parentName: avatar_prefab
+      position: {x: -0, y: 0.46539998, z: -0.0228}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jRoot
+      parentName: gSkeleton_game
+      position: {x: 5.296564e-34, y: -0.0061841905, z: 0.0003913883}
+      rotation: {x: 6.0460504e-17, y: 0.9873951, z: -0.15827486, w: -9.6915334e-18}
+      scale: {x: 1.0000005, y: 1, z: 1.0000006}
+    - name: jLeg_L
+      parentName: jRoot
+      position: {x: 0.09241944, y: -0.035061285, z: -0.012053775}
+      rotation: {x: -0.98981, y: 0.00023692104, z: 0.0010523212, w: -0.14239031}
+      scale: {x: 1.0000012, y: 0.99999905, z: 1.0000007}
+    - name: jKnee_L
+      parentName: jLeg_L
+      position: {x: 4.440892e-17, y: 0.18290536, z: 1.110223e-16}
+      rotation: {x: -0.07990955, y: 0.0000000018299033, z: -0.000000011277734, w: 0.99680215}
+      scale: {x: 1.0000035, y: 1.0000031, z: 1.0000013}
+    - name: jFoot_L
+      parentName: jKnee_L
+      position: {x: -3.8857806e-15, y: 0.17653339, z: 7.779011e-11}
+      rotation: {x: 0.49143076, y: 0.0000000014115356, z: 0.000000012631061, w: 0.8709166}
+      scale: {x: 1.0000088, y: 1.0000098, z: 0.99999934}
+    - name: jToes_L
+      parentName: jFoot_L
+      position: {x: 1.4432899e-15, y: 0.09528588, z: 6.6613384e-17}
+      rotation: {x: 0.3156155, y: 5.820766e-11, z: -5.820766e-11, w: 0.9488872}
+      scale: {x: 1.0000087, y: 1.0000011, z: 1.0000054}
+    - name: jLeg_R
+      parentName: jRoot
+      position: {x: -0.0924194, y: -0.035060823, z: -0.0120539265}
+      rotation: {x: -0.14239028, y: -0.0010523787, z: 0.00023694457, w: 0.98981}
+      scale: {x: 1.0000014, y: 0.9999995, z: 1.0000007}
+    - name: jKnee_R
+      parentName: jLeg_R
+      position: {x: 6.6613384e-17, y: -0.18290542, z: 0.000000003918772}
+      rotation: {x: -0.07990955, y: -0.000000017229468, z: -0.000000019543222, w: 0.99680215}
+      scale: {x: 1.0000042, y: 1.0000001, z: 1.0000035}
+    - name: jFoot_R
+      parentName: jKnee_R
+      position: {x: 3.1530333e-15, y: -0.1765337, z: 0.00000029350628}
+      rotation: {x: 0.49143073, y: 3.4924597e-10, z: 0.000000019983418, w: 0.8709167}
+      scale: {x: 1.0000066, y: 1.0000063, z: 0.9999988}
+    - name: jToes_R
+      parentName: jFoot_R
+      position: {x: -5.107026e-16, y: -0.0952859, z: 0.000000010444953}
+      rotation: {x: 0.31561556, y: -0.000000039697625, z: -0.00000002697925, w: 0.94888717}
+      scale: {x: 1.0000052, y: 0.9999937, z: 1.0000117}
+    - name: jLowerSpine
+      parentName: jRoot
+      position: {x: 3.4307703e-17, y: 0.08954313, z: -0.049702454}
+      rotation: {x: -0.18782839, y: -1.3657717e-16, z: 2.59328e-17, w: 0.98220193}
+      scale: {x: 1.0000072, y: 1, z: 1.0000067}
+    - name: sprayCanBooster
+      parentName: jLowerSpine
+      position: {x: 4.601486e-17, y: 0.021600714, z: 0.071748026}
+      rotation: {x: -6.1204774e-17, y: 0.9995498, z: 0.030003063, w: -1.8371578e-18}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jetpackCloud_posL
+      parentName: sprayCanBooster
+      position: {x: -0.09044131, y: -0.19845916, z: -0.13157153}
+      rotation: {x: -2.3353e-41, y: -3.672654e-18, z: 1.2235444e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jetpackCloud_posR
+      parentName: sprayCanBooster
+      position: {x: 0.09065853, y: -0.19845916, z: -0.13157153}
+      rotation: {x: -2.3353e-41, y: -3.672654e-18, z: 1.2235444e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jShoulder_R
+      parentName: jLowerSpine
+      position: {x: -0.106901005, y: 0.0801185, z: 0.0012323505}
+      rotation: {x: 0.029130679, y: 0.038877178, z: -0.013299443, w: 0.9987308}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000001}
+    - name: jElbow_R
+      parentName: jShoulder_R
+      position: {x: -0.1179451, y: -1.7763569e-16, z: 1.6653345e-16}
+      rotation: {x: 0.0021822464, y: -0.06630062, z: 0.008582504, w: 0.9977604}
+      scale: {x: 0.9999986, y: 0.9999997, z: 1.0000004}
+    - name: jHand_R
+      parentName: jElbow_R
+      position: {x: -0.13189135, y: -0.0016378023, z: -0.0027630194}
+      rotation: {x: 0.0086791115, y: -0.9963123, z: 0.000743545, w: 0.08535735}
+      scale: {x: 1.0000006, y: 1.0000012, z: 0.9999997}
+    - name: magnetBooster
+      parentName: jHand_R
+      position: {x: 0.1244361, y: -0.048698705, z: 0.0070595676}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: sprayCan
+      parentName: jHand_R
+      position: {x: 0.05543391, y: -0.04478238, z: 0.0061043687}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Intro_SprayPaint_Particles
+      parentName: sprayCan
+      position: {x: 0.075408384, y: 0.024191154, z: 0.01604712}
+      rotation: {x: 0.69888294, y: 0.127316, z: 0.08820899, w: 0.6982639}
+      scale: {x: 2.3200188, y: 2.32002, z: 2.3200204}
+    - name: Intro_SprayPaint_Particles 1
+      parentName: sprayCan
+      position: {x: 0.07541683, y: 0.024191586, z: 0.016046185}
+      rotation: {x: 0.008234517, y: 0.9703991, z: -0.20109981, w: -0.13347924}
+      scale: {x: 2.3200185, y: 2.3200207, z: 2.3200212}
+    - name: Intro_SprayPaint_Particles 2
+      parentName: sprayCan
+      position: {x: 0.07542946, y: 0.024191197, z: 0.016049331}
+      rotation: {x: 0.6988833, y: 0.12731573, z: 0.08820923, w: 0.6982636}
+      scale: {x: 2.3200188, y: 2.3200188, z: 2.3200192}
+    - name: jShoulder_L
+      parentName: jLowerSpine
+      position: {x: 0.106900655, y: 0.080118954, z: 0.0012323776}
+      rotation: {x: 0.013209012, y: -0.9987307, z: -0.029134043, w: -0.038906414}
+      scale: {x: 0.9999966, y: 1.0000001, z: 0.9999979}
+    - name: jElbow_L
+      parentName: jShoulder_L
+      position: {x: -0.1179746, y: 0, z: -1.7763569e-16}
+      rotation: {x: -0.0019678776, y: 0.063183084, z: 0.005769814, w: 0.99798334}
+      scale: {x: 0.99999887, y: 1.0000004, z: 1.0000004}
+    - name: jHand_L
+      parentName: jElbow_L
+      position: {x: -0.13080363, y: -0.002709572, z: 0.0035138149}
+      rotation: {x: -0.5920502, y: 0.33346522, z: 0.30331862, w: 0.6680384}
+      scale: {x: 0.9999997, y: 1.0000023, z: 1.0000002}
+    - name: jHead
+      parentName: jLowerSpine
+      position: {x: -3.4844425e-10, y: 0.16601054, z: -0.011951002}
+      rotation: {x: -0.07508158, y: 1.3751207e-16, z: 1.8701157e-17, w: 0.99717736}
+      scale: {x: 0.99999624, y: 0.9999993, z: 0.9999973}
+    - name: jAfro_3
+      parentName: jHead
+      position: {x: 9.241076e-17, y: 0.1320297, z: 0.08379394}
+      rotation: {x: 0.2886295, y: 3.00907e-16, z: 2.7103493e-16, w: 0.95744085}
+      scale: {x: 1.000005, y: 1.000007, z: 0.9999966}
+    - name: powerups
+      parentName: avatar_prefab
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hoverBoard
+      parentName: powerups
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: jumpBooster
+      parentName: powerups
+      position: {x: -0, y: 0.0096665025, z: 0.0045777215}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shadowPlane_blob
+      parentName: Character Model
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.3307858, y: 0.3307858, z: 0.3307858}
+    - name: Collider Super Sneakers
+      parentName: Character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.25881907, y: 0, z: -0, w: 0.9659258}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FlyAheadCurve
+      parentName: Character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: t = 0.00
+      parentName: FlyAheadCurve
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7110558, w: 0.70313555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: In
+      parentName: t = 0.00
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Out
+      parentName: t = 0.00
+      position: {x: -0.75022185, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: t = 0.25
+      parentName: FlyAheadCurve
+      position: {x: -1.8880061, y: 4.4523087, z: 0}
+      rotation: {x: 0, y: 0, z: 0.060860276, w: 0.9981463}
+      scale: {x: 1, y: 1, z: 1}
+    - name: In 1
+      parentName: t = 0.25
+      position: {x: -2.9549072, y: -3.4295526, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Out 1
+      parentName: t = 0.25
+      position: {x: 2.6409593, y: 2.8750153, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: t = 0.50
+      parentName: FlyAheadCurve
+      position: {x: 2.8355615, y: 3.6920266, z: 0}
+      rotation: {x: 0, y: 0, z: -0.21651115, w: 0.97628015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: In 2
+      parentName: t = 0.50
+      position: {x: -1.0923251, y: 1.7225302, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Out 2
+      parentName: t = 0.50
+      position: {x: 1.0347375, y: -1.7646688, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: t = 0.75
+      parentName: FlyAheadCurve
+      position: {x: -0.25331834, y: 2.031066, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: In 3
+      parentName: t = 0.75
+      position: {x: 1.0519142, y: -4.2255287, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Out 3
+      parentName: t = 0.75
+      position: {x: -0.1314888, y: 1.0697855, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: t = 1.00
+      parentName: FlyAheadCurve
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: In 4
+      parentName: t = 1.00
+      position: {x: 0.9069111, y: -1.0519117, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Out 4
+      parentName: t = 1.00
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Collider Character
+      parentName: Character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Collider Coin Magnet
+      parentName: Character(Clone)
+      position: {x: -0, y: 0.5723255, z: 1}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NewHoverBoardCrashParticles
+      parentName: Character(Clone)
+      position: {x: 0.047323372, y: 0.757533, z: 0.30188474}
+      rotation: {x: 0.91452676, y: -0, z: 0, w: -0.4045254}
+      scale: {x: 2.3200192, y: 2.3200192, z: 2.3200192}
+    - name: PickupParticles
+      parentName: Character(Clone)
+      position: {x: -0, y: 0.5311452, z: 0.11922077}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: pow
+      parentName: PickupParticles
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0, y: 0, z: 0}
+    - name: star7
+      parentName: PickupParticles
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0, y: 0, z: 0}
+    - name: SoundManager
+      parentName: Character(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
