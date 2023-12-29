@@ -1,42 +1,49 @@
 # Subway Surfers Clone
 
-Welcome to the Subway Surfers Clone repository! This project is a technical test approved in Module 5 (M5P2) and is designed to replicate the core mechanics of the popular mobile game Subway Surfers.
+## Project Description
+This project is a clone of the popular mobile game Subway Surfers, developed with mechanics testing purposes. The prototype aims to replicate the core mechanics of the original game, providing an interactive and dynamic experience where the player must dodge obstacles while running through an urban environment.
 
-## Game Mechanics
+## Animations
+Animations are a crucial part of the gaming experience, providing immediate visual feedback on the player's actions. Below is a list of the 17 animations used and applied in the Player's state machine.
 
-### Start and End of Game
+### Base Layer (4 animations)
+- Idle
+- Run
+- Sprint
+- Dash
 
-The game starts with a countdown and the player gains control after the countdown finishes. The end of the game is triggered when the player collides with an obstacle that results in a game over condition.
+### Jump State Machine (3 animations)
+- JumpStart
+- JumpLoop
+- JumpEnd
 
-### Collision and Death
+### Stumble State Machine (6 animations)
+- StumbleFront
+- StumbleLeft
+- StumbleRight
+- StumbleRun
+- StumbleStand
+- StumbleRecover
 
-The player's journey is fraught with hazards. Collisions with certain obstacles will result in an immediate game over, while others may simply alter the player's path. It is crucial to adjust the collision boxes to trigger the player's death in case of a collision with the following assets:
+### Death State Machine (4 animations)
+- DeathBounce
+- DeathLower
+- DeathMovingTrain
+- DeathUpper
 
-- `blocker_jump` - Player dies upon collision
-- `blocker_roll`
-- `blocker_standard` - Player dies upon collision
-- `train_cargo`, `train_cargo_3`, `train_cargo_5` - Player dies upon collision
-- `train_ramp`
-- `train_standard`, `train_standard_3` - Player dies upon collision
-- `train_sub`, `train_sub_3` - Player dies upon collision
+## Gameplay Preview
 
-### Asset Distribution
+### Lane Change
+![Lane Change](url_for_lane_change_gif)
 
-Assets are distributed throughout the level to create a challenging experience for the player. Each asset type should have at least five instances placed throughout the level. The naming convention for the assets and their prefabs should follow the original nomenclature, and duplicates should be numbered sequentially (e.g., `tunnel_m(1)`).
+### Jump and Roll
+![Jump and Roll](url_for_jump_and_roll_gif)
 
-## Specifications
+### Frontal Collision
+![Frontal Collision](url_for_frontal_collision_gif)
 
-- The game should not generate any failures in the `tunnel_` assets that modify or obstruct the player's trajectory.
-- Ensure there are no empty spaces at the beginning and end of the level that could interfere with gameplay.
-- All assets must follow the original naming convention when creating Prefabs, and copies of these prefabs in the hierarchy should follow the numbering given by the duplicate operation.
+### Lateral Collision on Train
+![Lateral Collision](url_for_lateral_collision_gif)
 
-## Contributing
-
-Feel free to fork this repository and submit pull requests to contribute to the development of the Subway Surfers Clone. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-Thank you for checking out the Subway Surfers Clone project!
-
+### Death against Screen
+![Death against Screen](url_for_death_against_screen_gif)
