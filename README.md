@@ -34,16 +34,16 @@ Animations are a crucial part of the gaming experience, providing immediate visu
 ## Gameplay Preview
 
 ### Lane Change
-![Lane Change](url_for_lane_change_gif)
+![Lane Change](https://github.com/JuanGr95/Subway-Surfers-Clon/assets/131586834/4750a1ab-eef8-4403-944c-5409d191fcf9)
 
 ### Jump and Roll
-![Jump and Roll](url_for_jump_and_roll_gif)
+![Jump and Roll](https://github.com/JuanGr95/Subway-Surfers-Clon/assets/131586834/4d54c09f-8d03-4d30-b11e-eb2f1267bf50)
 
 ### Frontal Collision
-![Frontal Collision](url_for_frontal_collision_gif)
+![Frontal Collision](https://github.com/JuanGr95/Subway-Surfers-Clon/assets/131586834/b20e69ca-14dc-4980-a79a-7c0c7139991e)
 
 ### Lateral Collision on Train
-![Lateral Collision](url_for_lateral_collision_gif)
+![Lateral Collision](https://github.com/JuanGr95/Subway-Surfers-Clon/assets/131586834/ee005ddc-dcf5-429e-8739-67b6eb1e7479)
 
 ### Death against Screen
-![Death against Screen](url_for_death_against_screen_gif)
+![Death against Screen](https://github.com/JuanGr95/Subway-Surfers-Clon/assets/131586834/3c2ffd12-4572-4d03-b034-cb67f0809ec7)
