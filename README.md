@@ -7,23 +7,23 @@ This project is a clone of the popular mobile game Subway Surfers, developed wit
 Animations are a crucial part of the gaming experience, providing immediate visual feedback on the player's actions. Below is a list of the 17 animations used and applied in the Player's state machine.
 
 ### Base Layer (4 animations)
-- Idle
 - Run
-- Sprint
-- Dash
+- DodgeLeft
+- DodgeRight
+- Roll
 
 ### Jump State Machine (3 animations)
-- JumpStart
-- JumpLoop
-- JumpEnd
+- Jump
+- Fall
+- Landing
 
 ### Stumble State Machine (6 animations)
-- StumbleFront
-- StumbleLeft
-- StumbleRight
-- StumbleRun
-- StumbleStand
-- StumbleRecover
+- StumbleLow
+- StumbleOffLeft
+- StumbleOffRight
+- StumbleFall
+- StumbleSideLeft
+- StumbleSideRight
 
 ### Death State Machine (4 animations)
 - DeathBounce
